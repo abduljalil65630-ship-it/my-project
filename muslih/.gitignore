@@ -1,0 +1,40 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+*.iml
+*.kotlin
+*.g.dart
+.packages
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/**/gradle-wrapper.jar
+
+# iOS/macOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/**/DerivedData/
+macos/Pods/
+
+# Secrets (لا ترفع مفاتيح Supabase الحقيقية)
+lib/core/config/env.local.dart
+
+# IDE
+.vscode/
+.idea/
